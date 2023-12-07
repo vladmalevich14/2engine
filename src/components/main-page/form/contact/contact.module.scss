@@ -1,0 +1,11 @@
+import s from "components/main-page/form/form.module.scss";
+
+export const Contact = () => {
+    return (
+        <label htmlFor="phone" className={`${s.label} ${s.nameAndContactLabel}`}>
+            <span>Введите номер <span className={s.phone}>Телефона:</span></span>
+            <input type="number" placeholder={'+7 (___) ___ - __ - __'} name={'phone'} id={'phone'}
+                   className={s.connectType}/>
+        </label>
+    );
+}

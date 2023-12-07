@@ -1,0 +1,9 @@
+import {Contacts} from "components/footer/contacts/contacts";
+import {InfoContainer} from "components/footer/info-container/info-container";
+
+export const Footer = () => {
+    return <footer>
+        <Contacts/>
+        <InfoContainer/>
+    </footer>
+}

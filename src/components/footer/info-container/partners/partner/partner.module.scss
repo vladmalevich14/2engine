@@ -1,0 +1,10 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.partnerContainer {
+    @include flex(row, center, center);
+    border: 1px solid $border-color;
+    border-radius: 9px;
+    height: 36px;
+    padding: 0 15px;
+}

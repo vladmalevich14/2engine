@@ -1,0 +1,9 @@
+type PropsType = {
+    linkName: string
+}
+
+export const FooterLink = ({linkName}: PropsType) => {
+    return <a href={'#'}>
+        {linkName} →
+    </a>
+}
