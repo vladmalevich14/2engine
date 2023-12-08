@@ -1,3 +1,5 @@
+import s from './nav-button-link.module.scss'
+
 type PropsType = {
     iconLink: string
     iconName: string
@@ -5,8 +7,8 @@ type PropsType = {
 }
 
 export const NavButtonLink = ({iconLink, nameLink, iconName}: PropsType) => {
-    return <a>
-        <img src={iconLink} alt={iconName}/>
+    return <a href={'#'} className={s.link}>
+        <img src={iconLink} alt={iconName} className={s.icon}/>
         <span>{nameLink}</span>
     </a>
 }

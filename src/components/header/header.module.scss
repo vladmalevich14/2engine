@@ -1,0 +1,62 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.headerContainer {
+  @include font-style(14px, 500, 22.4px);
+  @include flex(row, space-between, stretch);
+  color: $primary-white-color;
+  background-color: $primary-black-color;
+  padding: 20px 100px;
+
+  .generalInfo {
+    @include flex(row, center, center);
+    gap: 40px;
+
+    .buttonsContainer {
+      display: flex;
+      gap: 40px;
+      color: $primary-white-color;
+
+      .catalog {
+        @include flex(row, center, center);
+        gap: 10px;
+        padding: 10px 20px;
+
+        border-radius: 10px;
+        background: $primary-default-color;
+        color: $primary-black-color;
+
+        &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+      }
+
+      .location, .contacts {
+        @include flex(row, flex-start, center);
+        gap: 4px;
+
+        &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headerContainer {
+    position: relative;
+    @include flex(row, center, stretch);
+    .generalInfo {
+      .companyName {
+        @include flex(row, center, center);
+      }
+
+      .buttonsContainer {
+        display: none;
+      }
+    }
+  }
+}

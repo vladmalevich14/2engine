@@ -1,0 +1,47 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.menuItems {
+  display: flex;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .burgerIcon {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        height: 2px;
+        width: 30px;
+        background-color: $primary-white-color;
+        margin: 5px 0;
+      }
+    }
+
+    .menuItems {
+      display: none;
+    }
+
+    .show {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      left: -254px;
+      width: 300px;
+      background-color: $primary-black-color;
+      z-index: 1;
+      padding: 20px 0;
+    }
+  }
+}

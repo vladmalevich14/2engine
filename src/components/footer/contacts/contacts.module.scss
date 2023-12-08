@@ -1,5 +1,38 @@
-export const Contacts = () => {
-    return <div>
+@import 'styles/variables';
+@import 'styles/mixins';
 
-    </div>
+.contacts {
+  @include font-style(14px, 600, 22px);
+  color: $primary-default-color;
+  @include flex(row, space-between, center);
+  margin: 0 100px;
+  padding: 40px 0;
+  border-bottom: 1px solid $border-color;
+
+  .contact, .contactLink {
+    @include flex(row, center, center);
+    gap: 9px;
+
+    .contactIcon {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .contactLink {
+    text-decoration: none;
+    @include font-style(14px, 600, 22px);
+    color: $primary-default-color;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts {
+    display: none;
+  }
 }

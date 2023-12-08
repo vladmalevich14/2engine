@@ -1,5 +1,5 @@
 import {ReactNode} from "react";
-import s from './partner.module.scss'
+import s from 'components/footer/info-container/partners/partner/partner.module.scss'
 
 type PropsType = {
     children: ReactNode

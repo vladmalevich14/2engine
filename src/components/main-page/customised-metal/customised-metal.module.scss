@@ -1,8 +1,254 @@
-export const CustomisedMetal = () => {
-    return <article>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </article>
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.mainContainer {
+  margin: 0 100px;
+
+  .headerMetal {
+    padding: 50px 0;
+    @include font-style(50px, 800, 55px);
+    color: $primary-black-color;
+    text-align: center;
+    margin: 0;
+  }
+
+  .blocksWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    @include font-style(18px, 500, 30px);
+    gap: 30px;
+    text-align: left;
+
+    .blockContainer {
+      @include flex(column, space-between, stretch);
+      border-radius: 40px;
+      height: 260px;
+      padding: 20px 40px;
+
+      .title {
+        margin: 0;
+        @include font-style(32px, 800, 50px);
+      }
+    }
+
+    .blackContainer {
+      gap: 30px;
+      background-color: $primary-black-color;
+      width: 650px;
+      color: $primary-white-color;
+    }
+
+    .whiteContainer {
+      background-color: $grayscale-gray-10-color;
+      width: 450px;
+      color: $primary-black-color;
+    }
+
+    .order {
+      position: relative;
+
+      p {
+        width: 400px;
+      }
+
+      .notes {
+        position: absolute;
+        right: 20px;
+        top: 0;
+      }
+    }
+
+    .conditions {
+      position: relative;
+
+      .transparentFolder {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 100;
+      }
+
+      .orangeFolder {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+
+    .priceService {
+      position: relative;
+
+      p {
+        z-index: 100;
+      }
+
+      .transparentPrice {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+      }
+
+      .price {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+
+    .guarantee {
+      position: relative;
+
+      p {
+        width: 500px;
+      }
+
+      .guaranteeMiddle {
+        position: absolute;
+        right: 160px;
+        top: 5px;
+      }
+
+      .guaranteeBig {
+        width: 190px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+      }
+
+      .guaranteeMiddleBig {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .guaranteeSmall {
+        position: absolute;
+        right: 5px;
+        bottom: 12px;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .mainContainer {
+    margin: 0;
+
+    .headerMetal {
+      padding: 20px 0;
+      @include font-style(26px, 700, 36px);
+    }
+
+    .blocksWrapper {
+      @include flex(column, center, center);
+      @include font-style(14px, 400, 19px);
+
+      .blockContainer {
+        @include flex(column, flex-start, stretch);
+        padding: 24px 20px;
+        border-radius: 24px;
+
+
+        .title {
+          @include font-style(26px, 700, 36px);
+        }
+      }
+
+      .blackContainer {
+        box-sizing: border-box;
+        width: 340px;
+        gap: 0;
+
+      }
+
+      .whiteContainer {
+        box-sizing: border-box;
+        width: 340px;
+      }
+
+      .order {
+
+        p {
+          width: 300px;
+        }
+
+        .notes {
+          width: 150px;
+          left: 52px;
+          top: 147px;
+          clip-path: inset(0% 0% 45% 0%);
+        }
+      }
+
+      .conditions {
+
+        .transparentFolder {
+          right: 15px;
+          top: 190px;
+          z-index: 100;
+          transform: rotate(180deg) rotateY(180deg);
+          clip-path: inset(40% 0% 0% 0%);
+        }
+
+        .orangeFolder {
+          transform: rotate(180deg) rotateY(180deg);
+          right: 0;
+          top: 150px;
+          clip-path: inset(31% 0% 0% round 10%);
+        }
+      }
+
+      .priceService {
+
+        .transparentPrice {
+          width: 120px;
+          right: 50px;
+          top: 140px;
+          clip-path: inset(0% 0% 35% 0%);
+        }
+
+        .price {
+          width: 140px;
+          right: 20px;
+          top: 120px;
+          clip-path: inset(0% 0% 39% 0%);
+        }
+      }
+
+      .guarantee {
+
+        p {
+          width: 300px;
+        }
+
+        .guaranteeMiddle {
+          width: 35px;
+          right: 140px;
+          top: 130px;
+          transform: rotate(-10deg);
+        }
+
+        .guaranteeBig {
+          display: none;
+        }
+
+        .guaranteeMiddleBig {
+          display: block;
+          position: absolute;
+          width: 85px;
+          right: 50px;
+          top: 135px;
+          transform: rotate(10deg);
+        }
+
+        .guaranteeSmall {
+          width: 25px;
+          right: 50px;
+          bottom: -20px;
+        }
+      }
+    }
+  }
 }

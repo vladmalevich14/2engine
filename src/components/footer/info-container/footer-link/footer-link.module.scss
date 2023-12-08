@@ -1,9 +1,33 @@
-type PropsType = {
-    linkName: string
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.link {
+  text-decoration: none;
+  color: $primary-white-color;
+  @include font-style(14px, 400, 22px);
+  width: 240px;
+  text-align: left;
 }
 
-export const FooterLink = ({linkName}: PropsType) => {
-    return <a href={'#'}>
-        {linkName} →
-    </a>
+.linkGray {
+  text-decoration: none;
+  color: $grayscale-grey-70-color;
+  @include font-style(14px, 400, 22px);
+  width: 200px;
+}
+
+.link:hover, .linkGray:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .link {
+    display: none;
+  }
+  .linkGray {
+    display: none;
+  }
+  .link {
+    display: none;
+  }
 }

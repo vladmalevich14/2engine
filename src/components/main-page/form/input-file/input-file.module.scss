@@ -1,0 +1,95 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.fileInputContainer {
+  margin-bottom: 5px;
+
+  .fileInputLabel {
+    @include flex(row, flex-start, center);
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+
+    .fileInputText {
+      @include flex(row, center, center);
+      @include font-style(16px, 500, 22px);
+      color: $grayscale-gray-10-color;
+      gap: 5px;
+    }
+
+    .fileInput {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+  }
+}
+
+
+.thumbnailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+  .thumbnail {
+    position: relative;
+    margin: 5px;
+    text-align: center;
+
+    .removeButtonIcon {
+      position: absolute;
+      top: -10px;
+      right: -20px;
+      border: none;
+      cursor: pointer;
+
+    }
+
+
+    img {
+      width: 130px;
+      height: 130px;
+      border-radius: 10px;
+    }
+
+    .defaultIcon {
+      @include flex(column, space-between, center);
+      background-color: $primary-white-color;
+      border-radius: 10px;
+      width: 130px;
+      height: 130px;
+      color: $primary-black-color;
+      font-size: 20px;
+      margin-bottom: 5px;
+
+      .fileName {
+        @include flex(row, flex-start, center);
+        @include font-style(14px, 500, 18px);
+        text-align: left;
+        margin-top: 10px;
+      }
+
+      .fileIcon {
+        margin-bottom: 15px;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fileInputContainer {
+
+    .fileInputLabel {
+      padding: 20px 0 0 5px;
+    }
+  }
+
+  .thumbnailsContainer {
+    padding-top: 20px;
+    gap: 15px;
+  }
+}
+
+

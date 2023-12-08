@@ -1,5 +1,40 @@
-export const InfoContainer = () => {
-    return <div>
+@import 'styles/variables';
+@import 'styles/mixins';
 
-    </div>
+.infoContainer {
+  @include flex(row, space-between, center);
+  gap: 100px;
+  padding: 20px 100px;
+
+  .linksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+  }
+
+  .rights {
+    @include flex(column, space-between, stretch);
+    width: 400px;
+    text-align: left;
+
+    p:nth-child(1) {
+      color: $grayscale-gray-60-color;
+    }
+
+    p:nth-child(2) {
+      color: $grayscale-grey-70-color;
+    }
+  }
+
+  .linksAndLogos {
+    @include flex(row, space-between, center);
+    margin-top: 15px;
+    color: $grayscale-grey-70-color;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .infoContainer {
+    display: none;
+  }
 }

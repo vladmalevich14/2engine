@@ -1,5 +1,165 @@
-export const OurPossibilities = () => {
-    return <article>
+@import 'styles/variables';
+@import 'styles/mixins';
 
-    </article>
+.possibilities {
+  margin: 0 100px;
+
+  .possibilitiesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .rolling {
+      @include flex(column, flex-start, center);
+      gap: 20px;
+    }
+
+    .metalworking {
+      @include flex(column, flex-start, center);
+      gap: 20px;
+    }
+  }
+
+  .headerPossibilities {
+    padding: 50px;
+    @include font-style(50px, 800, 55px);
+    color: $primary-black-color;
+    text-align: center;
+    margin: 0;
+  }
+
+  .titlePossibilities {
+    @include font-style(42px, 800, 50px);
+    color: $primary-default-color;
+    margin: 0;
+  }
+}
+
+.container {
+  background-color: $grayscale-gray-10-color;
+  border-radius: 20px;
+  padding: 23px 25px;
+  @include font-style(18px, 600, 30px);
+  color: $grayscale-gray-60-color;
+  width: 580px;
+  text-align: left;
+
+  .containerTitle {
+    @include font-style(30px, 700, 42px);
+    color: $primary-black-color;
+    margin-top: 0;
+  }
+
+  .containerContent {
+    @include flex(row, flex-start, center);
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .item {
+      min-width: 160px;
+    }
+
+    .accordion {
+      @include flex(row, flex-start, center);
+      @include font-style(16px, 600, 22px);
+      gap: 10px;
+      width: 500px;
+      margin: 24px 0 16px;
+      cursor: pointer;
+    }
+
+    .blackText {
+      color: $primary-black-color;
+    }
+
+    .orangeText {
+      color: $primary-default-color;
+    }
+
+    .imgContainer {
+      @include flex(row, center, center);
+      background-color: $primary-white-color;
+      height: 150px;
+      width: 180px;
+      border-radius: 24px;
+
+      .image {
+        width: 130px;
+      }
+    }
+  }
+
+  .listOfTechReq {
+    @include flex(row, space-between, stretch);
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
+
+    .elementWrapper {
+      @include font-style(16px, 500, 22px);
+      text-align: left;
+      width: 250px;
+      margin-left: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .possibilities {
+    margin: 0;
+
+    .possibilitiesContainer {
+      @include flex(column, center, center);
+
+      .rolling {
+        margin-bottom: 25px;
+      }
+    }
+
+    .headerPossibilities {
+      padding: 40px 0;
+      @include font-style(26px, 700, 36px);
+    }
+
+    .titlePossibilities {
+      @include font-style(22px, 600, 30px);
+      padding-bottom: 20px;
+    }
+  }
+
+  .container {
+    @include font-style(16px, 500, 22px);
+    width: 300px;
+    padding: 20px;
+
+    .containerTitle {
+      @include font-style(22px, 600, 30px);
+    }
+
+    .containerContent {
+      .item {
+        min-width: 145px;
+      }
+
+      .imgContainer {
+        height: 65px;
+        width: 90px;
+        border-radius: 10px;
+
+        &:nth-child(5) .image {
+          width: 50px;
+        }
+
+        .image {
+          width: 70px;
+        }
+      }
+    }
+    .listOfTechReq {
+      .elementWrapper {
+        @include font-style(12px, 400, 15px);
+        margin-left: 20px;
+      }
+    }
+  }
 }

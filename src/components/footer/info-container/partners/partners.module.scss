@@ -1,21 +1,12 @@
-import s from './info-container.module.scss'
-import {Partner} from "components/footer/info-container/partners/partner/partner";
-import {ReactComponent as Kassa} from 'assets/svg-icons/kassa.svg'
-import {ReactComponent as Sberbank} from 'assets/svg-icons/sberbank.svg'
-import {ReactComponent as Engine} from 'assets/svg-icons/2engine.svg'
+@import 'styles/mixins';
 
-export const Partners = () => {
+.partnersContainer {
+    @include flex(row, center, center);
+    gap: 10px;
+}
 
-    return <div>
-        <Partner>
-            <Kassa/>
-        </Partner>
-        <Partner>
-            <Sberbank/>
-        </Partner>
-        <Partner>
-            <Engine/>
-        </Partner>
-    </div>
-
+@media only screen and (max-width: 768px) {
+    .partnersContainer {
+        display: none;
+    }
 }

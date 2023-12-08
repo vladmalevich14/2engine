@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac1f6147-419d-4096-86ff-8cbae423cfc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer-for-mobile/footer-for-mobile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/contacts/contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/contacts/contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/contacts/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/contacts/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/info-container/footer-link/footer-link.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/info-container/footer-link/footer-link.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/info-container/footer-link/footer-link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/info-container/footer-link/footer-link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/info-container/info-container.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/info-container/info-container.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/info-container/info-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/info-container/info-container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/info-container/partners/partner/partner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/info-container/partners/partner/partner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/info-container/partners/partners.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/info-container/partners/partners.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/info-container/partners/partners.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/info-container/partners/partners.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/company-name/company-name.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/company-name/company-name.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/company-name/company-name.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/company-name/company-name.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/company-name/letter/letter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/company-name/letter/letter.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/company-name/letter/letter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/company-name/letter/letter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav/nav-button-link/nav-button-link.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/nav-button-link/nav-button-link.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav/nav-button-link/nav-button-link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/nav-button-link/nav-button-link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav/nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav/nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/customised-metal/customised-metal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/customised-metal/customised-metal.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/customised-metal/customised-metal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/customised-metal/customised-metal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/contact/contact.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/contact/contact.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/contact/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/contact/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/form.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/input-file/input-file.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/input-file/input-file.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/input-file/input-file.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/input-file/input-file.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/input-name/input-name.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/input-name/input-name.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/input-name/input-name.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/input-name/input-name.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/input-radio/input-radio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/input-radio/input-radio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/main-page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/main-page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/main-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/main-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/our-possibilities/container/container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/our-possibilities/container/container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/our-possibilities/our-possibilities.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/our-possibilities/our-possibilities.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-page/our-possibilities/our-possibilities.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/our-possibilities/our-possibilities.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Z7n3J8jJkpP9uSBCYspa3OGmtZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IT-Incubator/test-for-job/2engine/src/components/main-page/form/input-radio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IT-Incubator\\test-for-job\\2engine\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\main-page\form\input-radio" />
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\main-page\form\input-name" />
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\main-page\form\contact" />
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\main-page\form\input-file" />
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\main-page\form" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\main-page" />
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\footer\info-container\partners\partner" />
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\styles" />
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src" />
+      <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\header\nav-button-link\nav-button-link" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac1f6147-419d-4096-86ff-8cbae423cfc0" name="Changes" comment="" />
+      <created>1701781785028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701781785028</updated>
+      <workItem from="1701781786080" duration="18996000" />
+      <workItem from="1701850082470" duration="23454000" />
+      <workItem from="1701890567911" duration="2107000" />
+      <workItem from="1701935106968" duration="36753000" />
+      <workItem from="1702025105391" duration="5221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

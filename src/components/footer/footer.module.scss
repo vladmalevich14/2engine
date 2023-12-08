@@ -1,9 +1,30 @@
-import {Contacts} from "components/footer/contacts/contacts";
-import {InfoContainer} from "components/footer/info-container/info-container";
+@import 'styles/variables';
+@import 'styles/mixins';
 
-export const Footer = () => {
-    return <footer>
-        <Contacts/>
-        <InfoContainer/>
-    </footer>
+.footer {
+  @include font-style(14px, 400, 22px);
+  color: $primary-white-color;
+  background-color: $primary-black-color;
+
+  .footerMobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    @include flex(row, center, center);
+    @include font-style(12px, 400, 15px);
+    padding: 10px 20px;
+
+    .footerMobile {
+      @include flex(row, center, center);
+      gap: 20px;
+
+      .navButton {
+        @include flex(column, center, center);
+        gap: 2px;
+      }
+    }
+  }
 }

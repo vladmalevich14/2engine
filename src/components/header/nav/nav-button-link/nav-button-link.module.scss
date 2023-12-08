@@ -1,0 +1,18 @@
+@import 'styles/mixins';
+@import 'styles/variables';
+
+.link {
+  @include flex(column, flex-start, center);
+  gap: 5px;
+  text-decoration: none;
+  color: $primary-white-color;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  .icon {
+    height: 20px;
+  }
+
+}
