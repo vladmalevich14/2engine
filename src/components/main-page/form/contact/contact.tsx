@@ -1,10 +1,10 @@
 import s from "./contact.module.scss";
-import {ChangeEvent, useEffect, useState} from "react";
+import {ChangeEvent, Dispatch, SetStateAction, useEffect, useState} from "react";
 
 type PropsType = {
     value: string
     contact: string
-    setContact: (contact: string) => void
+    setContact: Dispatch<SetStateAction<string>>
 }
 
 export const Contact = ({value, contact, setContact}: PropsType) => {

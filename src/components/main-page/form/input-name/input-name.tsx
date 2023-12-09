@@ -1,9 +1,9 @@
 import s from "./input-name.module.scss";
-import {ChangeEvent, useState} from "react";
+import {ChangeEvent, Dispatch, SetStateAction, useState} from "react";
 
 type PropsType = {
     name: string
-    setName: (name: string) => void
+    setName: Dispatch<SetStateAction<string>>
 }
 
 export const InputName = ({name, setName}: PropsType) => {

@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6147-419d-4096-86ff-8cbae423cfc0" name="Changes" comment="final_commit">
+    <list default="true" id="ac1f6147-419d-4096-86ff-8cbae423cfc0" name="Changes" comment="fix-form_commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main-page/form/contact/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/contact/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main-page/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main-page/form/input-file/input-file.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/input-file/input-file.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main-page/form/input-name/input-name.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-page/form/input-name/input-name.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +27,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IT-Incubator/test-for-job/2engine/src/components/main-page/form/input-radio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\IT-Incubator\\test-for-job\\2engine\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IT-Incubator/test-for-job/2engine",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "D:\\IT-Incubator\\test-for-job\\2engine\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IT-Incubator\test-for-job\2engine\src\components\main-page\form\input-radio" />
@@ -74,7 +72,8 @@
       <workItem from="1701890567911" duration="2107000" />
       <workItem from="1701935106968" duration="36753000" />
       <workItem from="1702025105391" duration="6957000" />
-      <workItem from="1702132407380" duration="2951000" />
+      <workItem from="1702132407380" duration="3048000" />
+      <workItem from="1702135565924" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="final_commit">
       <option name="closed" value="true" />
@@ -84,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702030473324</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix-form_commit">
+      <option name="closed" value="true" />
+      <created>1702135424923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702135424923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="final_commit" />
+    <MESSAGE value="fix-form_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix-form_commit" />
   </component>
 </project>

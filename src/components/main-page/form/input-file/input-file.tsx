@@ -1,4 +1,4 @@
-import React, {ChangeEvent} from 'react';
+import React, {ChangeEvent, Dispatch, SetStateAction} from 'react';
 import {ReactComponent as Staple} from 'assets/svg-icons/staple.svg'
 import {ReactComponent as PDF} from 'assets/svg-icons/pdf.svg'
 import {ReactComponent as DOC} from 'assets/svg-icons/doc.svg'
@@ -7,7 +7,7 @@ import s from './input-file.module.scss';
 
 type PropsType = {
     files: File[]
-    setFiles: any
+    setFiles: Dispatch<SetStateAction<File[]>>
 }
 
 export const InputFile = ({files, setFiles}: PropsType) => {
@@ -15,8 +15,8 @@ export const InputFile = ({files, setFiles}: PropsType) => {
     const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
         const selectedFiles = event.target.files
         if (selectedFiles) {
-            const newFiles: File[] = Array.from(selectedFiles);
-            setFiles((prevFiles: File[]) => [...prevFiles, ...newFiles]);
+            const newFiles: File[] = Array.from(selectedFiles)
+            setFiles((prevFiles: File[]) => [...prevFiles, ...newFiles])
         }
     }
 
@@ -54,7 +54,6 @@ export const InputFile = ({files, setFiles}: PropsType) => {
                                         <DOC className={s.fileIcon}/>}
                                 </div>
                             )}
-
                         </div>
                     ))}
             </div>
