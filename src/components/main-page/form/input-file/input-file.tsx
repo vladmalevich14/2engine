@@ -1,24 +1,27 @@
-import React, {ChangeEvent, useState} from 'react';
+import React, {ChangeEvent} from 'react';
 import {ReactComponent as Staple} from 'assets/svg-icons/staple.svg'
 import {ReactComponent as PDF} from 'assets/svg-icons/pdf.svg'
 import {ReactComponent as DOC} from 'assets/svg-icons/doc.svg'
 import {ReactComponent as Remove} from 'assets/svg-icons/remove.svg'
 import s from './input-file.module.scss';
 
+type PropsType = {
+    files: File[]
+    setFiles: any
+}
 
-export const InputFile = () => {
-    const [files, setFiles] = useState<File[]>([]);
+export const InputFile = ({files, setFiles}: PropsType) => {
 
     const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
         const selectedFiles = event.target.files
         if (selectedFiles) {
             const newFiles: File[] = Array.from(selectedFiles);
-            setFiles((prevFiles) => [...prevFiles, ...newFiles]);
+            setFiles((prevFiles: File[]) => [...prevFiles, ...newFiles]);
         }
     }
 
     const handleRemove = (indexToRemove: number) => {
-        setFiles((prevFiles) => prevFiles.filter((file, index) => index !== indexToRemove));
+        setFiles((prevFiles: File[]) => prevFiles.filter((file, index) => index !== indexToRemove));
     }
 
     return (

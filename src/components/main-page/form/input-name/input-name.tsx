@@ -1,8 +1,12 @@
 import s from "./input-name.module.scss";
 import {ChangeEvent, useState} from "react";
 
-export const InputName = () => {
-    const [name, setName] = useState('');
+type PropsType = {
+    name: string
+    setName: (name: string) => void
+}
+
+export const InputName = ({name, setName}: PropsType) => {
     const [isValid, setIsValid] = useState(true);
     const [touched, setTouched] = useState(false);
 

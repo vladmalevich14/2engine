@@ -3,17 +3,18 @@ import {ChangeEvent, useEffect, useState} from "react";
 
 type PropsType = {
     value: string
+    contact: string
+    setContact: (contact: string) => void
 }
 
-export const Contact = ({value}: PropsType) => {
-    const [inputValue, setInputValue] = useState('');
+export const Contact = ({value, contact, setContact}: PropsType) => {
     const [isValid, setIsValid] = useState(true);
     const [touched, setTouched] = useState(false);
 
     useEffect(() => {
         setIsValid(false)
         setTouched(false)
-        setInputValue('')
+        setContact('')
     }, [value]);
 
     const validateInput = (inputValue: string) => {
@@ -31,16 +32,16 @@ export const Contact = ({value}: PropsType) => {
 
     const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
         const newValue = e.target.value;
-        setInputValue(newValue);
+        setContact(newValue);
         if (touched) {
             validateInput(newValue);
         }
     };
 
     const handleBlur = () => {
-        if (inputValue !== '') {
+        if (contact !== '') {
             setTouched(true);
-            validateInput(inputValue);
+            validateInput(contact);
         }
     };
 
@@ -63,7 +64,7 @@ export const Contact = ({value}: PropsType) => {
                     }
                     name={value}
                     id={value}
-                    value={inputValue}
+                    value={contact}
                     onChange={handleInputChange}
                     onBlur={handleBlur}
                     className={`${s.connectType} ${touched && !isValid ? s.invalidInput : ''}`}
